@@ -19,7 +19,7 @@ Aplicación en Spring Boot para gestionar camas de hospital.
    mvn spring-boot:run
    ```
    - Arrancar en el puerto **8081**.
-   - Consola H2 en `http://localhost:8081/h2-console` (JDBC `jdbc:h2:mem:testdb`, usuario `sa`, sin contraseña).
+   - Consola H2 en `http://localhost:8081/h2-console` (JDBC `jdbc:h2:file:./data/testdb`, usuario `sa`, sin contraseña).
 
 ## Swagger / OpenAPI
 Documentación disponible en `http://localhost:8081/swagger-ui.html`.
